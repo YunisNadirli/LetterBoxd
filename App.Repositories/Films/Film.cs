@@ -10,5 +10,7 @@ namespace App.Repositories.Films
     public class Film : BaseEntity
     { 
         public string Name { get; set; } = default!;
+        public int Duration { get; set; } = default!;
+        public int Year { get; set; } = default!;
     }
 }
