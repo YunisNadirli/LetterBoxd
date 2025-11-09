@@ -169,3 +169,5 @@ C:\Users\HP\source\repos\Solution6\App.Api\obj\Debug\net8.0\refint\App.Api.dll
 C:\Users\HP\source\repos\Solution6\App.Api\obj\Debug\net8.0\App.Api.pdb
 C:\Users\HP\source\repos\Solution6\App.Api\obj\Debug\net8.0\App.Api.genruntimeconfig.cache
 C:\Users\HP\source\repos\Solution6\App.Api\obj\Debug\net8.0\ref\App.Api.dll
+C:\Users\HP\source\repos\Solution6\App.Api\bin\Debug\net8.0\App.Services.dll
+C:\Users\HP\source\repos\Solution6\App.Api\bin\Debug\net8.0\App.Services.pdb

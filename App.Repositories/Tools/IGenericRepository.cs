@@ -9,11 +9,11 @@ namespace App.Repositories.Tools
 {
     public interface IGenericRepository<T> where T : BaseEntity
     {
-        List<T> GetAll();
-        List<T> Where(Expression<Func<T, bool>> expression);
-        Task<T?> Get(int id);
+        IQueryable<T> GetAll();
+        IQueryable<T> Where(Expression<Func<T, bool>> expression);
+        Task<T> GetById(int id);
         void Update(T entity);
         void Delete(T entity);
-        void Add(T entity);
+        Task Add(T entity);
     }
 }

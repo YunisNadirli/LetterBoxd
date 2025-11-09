@@ -9,6 +9,7 @@
       "App.Api/1.0.0": {
         "dependencies": {
           "App.Repositories": "1.0.0",
+          "App.Services": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.10",
           "Microsoft.EntityFrameworkCore.Design": "9.0.10",
           "Swashbuckle.AspNetCore": "6.4.0"
@@ -1101,6 +1102,15 @@
         "runtime": {
           "App.Repositories.dll": {}
         }
+      },
+      "App.Services/1.0.0": {
+        "dependencies": {
+          "App.Repositories": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.10"
+        },
+        "runtime": {
+          "App.Services.dll": {}
+        }
       }
     }
   },
@@ -1706,6 +1716,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "App.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "App.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

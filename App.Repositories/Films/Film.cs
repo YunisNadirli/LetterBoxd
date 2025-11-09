@@ -11,6 +11,6 @@ namespace App.Repositories.Films
     { 
         public string Name { get; set; } = default!;
         public int Duration { get; set; } = default!;
-        public int Year { get; set; } = default!;
+        public string Year { get; set; } = default!;
     }
 }

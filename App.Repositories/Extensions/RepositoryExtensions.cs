@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace App.Repositories.Extensions
 {
-    public static class RepositoryExtension
+    public static class RepositoryExtensions
     {
         public static IServiceCollection AddRepositories(this IServiceCollection services, IConfiguration configuration)
         {

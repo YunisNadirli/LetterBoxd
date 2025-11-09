@@ -1719,6 +1719,23 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "App.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "App.Repositories": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.10"
+        },
+        "compile": {
+          "bin/placeholder/App.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.Services.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -5178,11 +5195,17 @@
       "type": "project",
       "path": "../App.Repositories/App.Repositories.csproj",
       "msbuildProject": "../App.Repositories/App.Repositories.csproj"
+    },
+    "App.Services/1.0.0": {
+      "type": "project",
+      "path": "../App.Services/App.Services.csproj",
+      "msbuildProject": "../App.Services/App.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "App.Repositories >= 1.0.0",
+      "App.Services >= 1.0.0",
       "Microsoft.EntityFrameWorkCore >= 9.0.10",
       "Microsoft.EntityFrameWorkCore.Design >= 9.0.10",
       "Swashbuckle.AspNetCore >= 6.4.0"
@@ -5217,6 +5240,9 @@
           "projectReferences": {
             "C:\\Users\\HP\\source\\repos\\Solution6\\App.Repositories\\App.Repositories.csproj": {
               "projectPath": "C:\\Users\\HP\\source\\repos\\Solution6\\App.Repositories\\App.Repositories.csproj"
+            },
+            "C:\\Users\\HP\\source\\repos\\Solution6\\App.Services\\App.Services.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\repos\\Solution6\\App.Services\\App.Services.csproj"
             }
           }
         }
